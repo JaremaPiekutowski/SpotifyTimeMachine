@@ -94,10 +94,6 @@ top_hundred = pd.DataFrame({"Song": title_list, "Artist": artist_list})
 top_hundred.index += 1
 print(top_hundred)
 
-# Save the DataFrame to Excel
-top_hundred.to_excel(f"Top Hundred {date}.xlsx")
-
-
 # Create SpotifyOAuth object
 oauth = spotipy.oauth2.SpotifyOAuth(client_id=SPOTIPY_CLIENT_ID,
                                     client_secret=SPOTIPY_CLIENT_SECRET,
