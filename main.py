@@ -7,9 +7,9 @@ import re
 import datetime as dt
 
 # Client ID and secret
-SPOTIPY_CLIENT_ID = '6b8a677697c344a18c84a7f5620653e3'
-SPOTIPY_CLIENT_SECRET = '5bf92f728c4a4cf2ae67910796257d4a'
-SPOTIPY_REDIRECT_URI = 'http://example.com'
+SPOTIPY_CLIENT_ID = input("Enter your SpotiPy Client ID")
+SPOTIPY_CLIENT_SECRET = input("Enter you SpotiPy Client Secret")
+SPOTIPY_REDIRECT_URI = input("Enter the http of your Redirect URI")
 
 # Input date
 correct_date = False
